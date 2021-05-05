@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+}
+
+@import "variables";
+/*
+@import "operaciones";
+@import "grillas";
+*/
+@import "clases";
+
+body {
+    background-color: $color-logoClaro;
+}
+
+header {
+    width: 100%;
+    height: 30%;
+}
+
+header {
+    img {
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+main {
+    div {
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+    }
+}
+
+header nav.navbar div.container-fluid button.bordeBoton {
+    border-color: $color-logo;
+}
+
+body header nav.navbar div.container-fluid li.nav-item a.colorMenu {
+    font: $fuente-textos;
+    color: $color-blanco;
+}
+
+.red{
+    color: red !important;
+  }
+  
+  footer{
+    background-color: $color-verde;
+    padding: 60px 0;
+    .footer-widget{
+      h3{
+        margin-bottom: 30px;
+        color: #ffffff;
+      }
+    }   
+    .contact-link{
+      display:inline-block;
+      width: 100%;
+      color: #ffffff;
+    }
+    // footer social
+    .footer-social{
+      ul{
+        padding-left: 0;
+        li{
+          list-style: none;
+          float: left;
+          padding: 0 10px;
+          &:first-child{
+            padding-left: 0;
+          }
+          a{
+            font-size: 20px;
+            color: #ffffff;
+            &:hover{
+              color: red;
+            }
+          }
+        }
+      }
+    }
+    
+    // opening hour
+    .opening-time{
+        color: #ffffff;
+      padding-left:0;
+      li{
+        list-style: none;
+        span{
+          float:left;
+          padding-right: 10px;
+          .fa-times{
+            color: red;
+          }
+        }
+          strong{
+            color: red;
+          }
+      }
+    }
+    
+    // latest event
+    .media-body{
+      a{
+        color: #ffffff;
+        &:hover{
+          color: red;
+        }
+      }
+      span{
+          color: #969696;
+        }
+    }
+    
+    // gallery image
+    .images-gellary{
+      ul{
+        padding-left: 0;
+        li{
+          list-style: none;
+          float: left;
+          margin: 0 3% 2% 0;
+          width: 31%;
+          position: relative;
+          &:nth-child(3n) {
+      margin: 0 0 1%;
+  }
+          a{
+            
+          }
+        }
+      }
+    }
+  }

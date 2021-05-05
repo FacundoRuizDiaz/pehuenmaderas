@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box; }
+
+/*
+@import "operaciones";
+@import "grillas";
+*/
+.encabezado__estilo {
+  background-color: #304921;
+  border-bottom: solid 3px #90B280;
+  position: sticky;
+  top: 0px;
+  z-index: 8; }
+
+.encabezado__barra {
+  align-items: flex-end;
+  margin-top: 40px;
+  justify-content: left; }
+
+.encabezado__efectoMenu:hover {
+  background-color: #90B280; }
+
+.encabezado__logo {
+  width: 20%; }
+
+.principal__titulo {
+  display: flex;
+  align-self: center;
+  font: normal 4vw "Roboto", bold;
+  color: #304921;
+  text-shadow: 2px 2px 2px #222222;
+  max-width: 100%;
+  justify-self: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.principal__carrousel {
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  margin-top: 1rem;
+  margin-bottom: 2rem; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+.imagen__instagram {
+  width: 85px;
+  height: 85px;
+  overflow: hidden; }
+
+.imagen__mercado {
+  width: 35%;
+  overflow: hidden; }
+
+body {
+  background-color: #CDDDC6; }
+
+header {
+  width: 100%;
+  height: 30%; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+main div h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem; }
+
+header nav.navbar div.container-fluid button.bordeBoton {
+  border-color: #90B280; }
+
+body header nav.navbar div.container-fluid li.nav-item a.colorMenu {
+  font: normal 0.95rem "Roboto", thin;
+  color: #FFFFFF; }
+
+.red {
+  color: red !important; }
+
+footer {
+  background-color: #304921;
+  padding: 60px 0; }
+  footer .footer-widget h3 {
+    margin-bottom: 30px;
+    color: #ffffff; }
+  footer .contact-link {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff; }
+  footer .footer-social ul {
+    padding-left: 0; }
+    footer .footer-social ul li {
+      list-style: none;
+      float: left;
+      padding: 0 10px; }
+      footer .footer-social ul li:first-child {
+        padding-left: 0; }
+      footer .footer-social ul li a {
+        font-size: 20px;
+        color: #ffffff; }
+        footer .footer-social ul li a:hover {
+          color: red; }
+  footer .opening-time {
+    color: #ffffff;
+    padding-left: 0; }
+    footer .opening-time li {
+      list-style: none; }
+      footer .opening-time li span {
+        float: left;
+        padding-right: 10px; }
+        footer .opening-time li span .fa-times {
+          color: red; }
+      footer .opening-time li strong {
+        color: red; }
+  footer .media-body a {
+    color: #ffffff; }
+    footer .media-body a:hover {
+      color: red; }
+  footer .media-body span {
+    color: #969696; }
+  footer .images-gellary ul {
+    padding-left: 0; }
+    footer .images-gellary ul li {
+      list-style: none;
+      float: left;
+      margin: 0 3% 2% 0;
+      width: 31%;
+      position: relative; }
+      footer .images-gellary ul li:nth-child(3n) {
+        margin: 0 0 1%; }

@@ -1,0 +1,79 @@
+.encabezado__estilo {
+    background-color: $color-verde;
+    border-bottom: solid 3px $color-logo;
+    position: sticky;
+    top: 0px;
+    z-index: 8;
+}
+
+.encabezado__barra {
+    align-items: flex-end;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.encabezado__efectoMenu {
+    &:hover {
+        background-color: $color-logo;
+    }
+}
+
+.encabezado__logo {
+width: 20%;
+}
+
+.principal__titulo {
+    display: flex;
+    align-self: center;
+    font: $fuente-titulo;
+    color: $color-verde;
+    text-shadow: $sombra-titulo;
+    max-width: 100%;
+    justify-self: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.principal__carrousel {
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.imagen__instagram {
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+}
+
+.imagen__mercado {
+    width: 35%;
+    overflow: hidden;
+}
+
